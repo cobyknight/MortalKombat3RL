@@ -9,9 +9,9 @@ from stable_baselines3.common.monitor import Monitor
 from stable_baselines3.common.vec_env import DummyVecEnv, VecFrameStack
 
 # Define directories
-LOG_DIR = './logs/'
-CHECKPOINT_DIR = './train/'
-OPT_DIR = './opt/'
+LOG_DIR = 'MORTALKOMBATAIFIX/logs/'
+CHECKPOINT_DIR = 'MORTALKOMBATAIFIX/train/'
+OPT_DIR = 'MORTALKOMBATAIFIX/nodelta/'
 
 # Create environment
 env = create_env(LOG_DIR=LOG_DIR)  # Creating environment with logging directory

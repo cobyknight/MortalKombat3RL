@@ -11,12 +11,11 @@ from stable_baselines3.common.monitor import Monitor
 from stable_baselines3.common.vec_env import DummyVecEnv, VecFrameStack, VecTransposeImage
 
 # Load pre-trained PPO model
-model = PPO.load('./train_nodelta/new_best_model_2770000.zip')
+model = PPO.load('MORTALKOMBATAIFIX/train_nodelta/new_best_model_2770000.zip')
 
 # Define directories
-LOG_DIR = './logs/'
-CHECKPOINT_DIR = './train_nodelta/'
-OPT_DIR = './nodelta/'
+LOG_DIR = 'MORTALKOMBATAIFIX\logs'
+CHECKPOINT_DIR = 'MORTALKOMBATAIFIX\train_nodelta'
 
 # Create custom environment
 env = create_env(LOG_DIR=LOG_DIR)

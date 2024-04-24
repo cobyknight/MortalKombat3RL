@@ -9,8 +9,8 @@ from stable_baselines3.common.monitor import Monitor
 from stable_baselines3.common.vec_env import DummyVecEnv, VecFrameStack
 
 # Directories
-LOG_DIR = './logs/'
-OPT_DIR = './opt/'
+LOG_DIR = 'MORTALKOMBATAIFIX\logs'
+OPT_DIR = 'MORTALKOMBATAIFIX/opt/'
 
 def optimize_ppo(trial):
     """ Function to optimize PPO hyperparameters """
