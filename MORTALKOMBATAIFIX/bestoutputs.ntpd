@@ -1,0 +1,32 @@
+Best trial: 41
+  Value:  25.0
+  Params:
+    n_steps: 3528
+    gamma: 0.8122485987779914
+    learning_rate: 5.75450156422157e-05
+    clip_range: 0.3426549924385344
+    gae_lambda: 0.8765397482302755
+Best model loaded from: ./opt_nodelta/trial_41_best_model
+Best parameters:
+  n_steps: 3528
+  gamma: 0.8122485987779914
+  learning_rate: 5.75450156422157e-05
+  clip_range: 0.3426549924385344
+  gae_lambda: 0.8765397482302755
+
+  [I 2024-04-22 22:34:46,522] Trial 9 finished with value: -180.0 and parameters: {'n_steps': 7376, 'gamma': 0.8216434955159275, 'learning_rate': 1.456610699099747e-05, 'clip_range': 0.2648544845199758, 'gae_lambda': 0.825763750227694}. Best is trial 6 with value: 30.0.
+Best trial:
+  Value:  30.0
+  Params:
+    n_steps: 5806
+    gamma: 0.8787592152924
+    learning_rate: 3.52316500494815e-05
+    clip_range: 0.1487683904424553
+    gae_lambda: 0.9474456981149016
+Best model loaded from: ./nodelta/trial_6_best_model
+Best parameters:
+  n_steps: 5806
+  gamma: 0.8787592152924
+  learning_rate: 3.52316500494815e-05
+  clip_range: 0.1487683904424553
+  gae_lambda: 0.9474456981149016

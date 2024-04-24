@@ -1,0 +1,3 @@
+Model 52: ./train_nodelta/new_best_model_310000 - Mean Reward: -230.0
+Model 5: ./train_nodelta/new_best_model_1150000 - Mean Reward: -200.0
+Model 17: ./train_nodelta/new_best_model_2770000 - Mean Reward: -150.0
